@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.todo {
+  width: 100%;
+  max-width: 1376px;
+  .todoContainer {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+}

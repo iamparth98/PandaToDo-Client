@@ -1,25 +1,14 @@
-import "./App.css";
-import Item from "./components/Item";
+import "./App.scss";
+import Main from "./components/main/Main";
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
   return (
     <div className="todo">
-      <div className="container">
-        <div className="todoWrapper">
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-        </div>
-        <br />
-        <div className="doneWrapper">
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-        </div>
+      <div className="todoContainer">
+        <Navbar />
+        <Main />
+        {/* <Footer /> */}
       </div>
     </div>
   );
