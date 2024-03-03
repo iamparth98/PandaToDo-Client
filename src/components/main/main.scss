@@ -1,0 +1,9 @@
+.mainContainer {
+  display: flex;
+  .sidebar {
+    flex: 0.8;
+  }
+  .taskbox {
+    flex: 3;
+  }
+}
